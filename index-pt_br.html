@@ -48,6 +48,7 @@
     .footer-badges { text-align: center; }
     .footer-badges a { color: #777; }
 		.lang a {color: inherit; text-decoration: none;}
+    .note { text-decoration: italic; color: #666; padding: 1em; }
 	</style>
 	
 </head>
@@ -407,7 +408,6 @@
 								<th>Git</th>
 								<th>Hg</th>
 								<th>Bzr</th>
-								<th>Bzr*</th>
 								<th>SVN</th>
 							</tr>
 							<tr>
@@ -415,7 +415,6 @@
 								<td class="sweet">24M</td>
 								<td>34M</td>
 								<td>45M</td>
-								<td>89M</td>
 								<td></td>
 							</tr>
 							<tr>
@@ -423,7 +422,6 @@
 								<td class="compare">43M</td>
 								<td>53M</td>
 								<td>64M</td>
-								<td>108M</td>
 								<td class="compare">61M</td>
 							</tr>
 						</table>
@@ -464,9 +462,9 @@
 						<div class="center"><img src="images/index1.png" alt="add commit workflow diagram" /></div>
 						
 						<div class="text">
-							Isso também permite colocar partes de arquivos na área intermediária que foram modificadas,
-							por exemplo para deixar para commit as mudanças que estão no topo do arquivo
-							que está mexendo, mas não as mudanças de baixo.
+							Isso também permite que você coloque na área intermediária apenas porções de um arquivo modificado.
+							
+							Foram=se os dias de fazer duas mudanças logicamente não relacionadas a um arquivo antes de perceber que você esqueceu de comitar uma delas. Agora você pode colocar na área intermediária apenas a mudança que precisa comitar e colocar a outra mudança na área intermediária para o próximo commit. Essa funcionalidade escala para quantas mudanças ao arquivo você precisar.
 						</div>
 
 						<div class="text">
@@ -605,7 +603,6 @@
 	    <div class="span-24 section">
 				<div class="args">
 					<span class="lang hg">hg</span>
-					<span class="lang bzr">bzr</span>
 					<span class="lang svn">svn</span>
 					<span class="lang perforce">perforce</span>
 				</div>
@@ -644,11 +641,7 @@
 					<div class="text">		
 						Esse tipo de comunidade simplesmente não existe em nenhum outro tipo de SCM.
           </div>
-					
-					<div class="tweets">
-						<img alt='puls twitter' width="300" src="http://twictur.es/i/1022858126.gif" />
-						<img alt='twitter' width="300" src="http://twictur.es/i/1022857633.gif" />
-					</div>
+
 				</div>
 	    </div>
 	
@@ -785,6 +778,7 @@ show       Show various types of objects
       <a href="http://es.whygitisbetterthanx.com">Spanish</a>, 
       <a href="http://fr.whygitisbetterthanx.com">French</a>, 
       <a href="http://it.whygitisbetterthanx.com">Italian</a>, 
+      <a href="http://lol.whygitisbetterthanx.com">Lolcat</a>, 
       <a href="http://nl.whygitisbetterthanx.com">Dutch</a>, 
       <a href="http://no.whygitisbetterthanx.com">Norwegian</a>, 
       <a href="http://pt.whygitisbetterthanx.com">Portuguese</a>, 
@@ -846,4 +840,3 @@ pageTracker._trackPageview();
 
 </body>
 </html>
-
